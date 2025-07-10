@@ -11,9 +11,9 @@ export default defineComponent({
 </script>
 
 <template>
-    <div v-for="dinosaur in dinosaurs" :key="dinosaur.name">
+    <span v-for="dinosaur in dinosaurs" :key="dinosaur.name">
         <RouterLink :to="{ name: 'Dinosaur', params: { dinosaur: `${dinosaur.name.toLowerCase()}` } }">
             {{ dinosaur.name }}
         </RouterLink>
-    </div>
+    </span>
 </template>
