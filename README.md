@@ -2,6 +2,13 @@
 
 A complete tutorial project demonstrating how to build a Vue.js application with Vite and Deno, featuring a full-stack TypeScript setup with a Deno backend.
 
+## Make it your own!
+
+You can deploy your own version of this svelte app to Deno Deploy immediately.
+Just click the button to clone and deploy.
+
+[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/denoland/tutorial-with-vue)
+
 ## Overview
 
 This project showcases how to:
