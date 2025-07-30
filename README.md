@@ -7,7 +7,7 @@ A complete tutorial project demonstrating how to build a Vue.js application with
 You can deploy your own version of this Vue app to Deno Deploy immediately.
 Just click the button to clone and deploy.
 
-[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/denoland/tutorial-with-vue)
+[![Deploy on Deno](https://app.deno.com/new?clone=https://github.com/denoland/tutorial-with-vue&mode=dynamic&entrypoint=api/main.ts&build=deno+task+build&install=deno+install)
 
 ## Overview
 
