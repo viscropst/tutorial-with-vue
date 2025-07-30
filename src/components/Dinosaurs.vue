@@ -12,7 +12,8 @@ export default defineComponent({
 
 <template>
     <span v-for="dinosaur in dinosaurs" :key="dinosaur.name">
-        <RouterLink :to="{ name: 'Dinosaur', params: { dinosaur: `${dinosaur.name.toLowerCase()}` } }">
+        <RouterLink :to="{ name: 'Dinosaur', params: { dinosaur: `${dinosaur.name.toLowerCase()}` } }"
+            class="btn btn-primary">
             {{ dinosaur.name }}
         </RouterLink>
     </span>

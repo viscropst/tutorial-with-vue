@@ -18,5 +18,5 @@ export default defineComponent({
 <template>
     <h1>{{ dinosaurDetails?.name }}</h1>
     <p>{{ dinosaurDetails?.description }}</p>
-    <RouterLink to="/">🠠 Back to all dinosaurs</RouterLink>
+    <RouterLink to="/" class="btn btn-secondary">Back to all dinosaurs</RouterLink>
 </template>
