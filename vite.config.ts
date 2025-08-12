@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import deno from "@deno/vite-plugin";
+import legacy from '@vitejs/plugin-legacy'
 
 export default defineConfig({
   server: {
@@ -21,7 +22,7 @@ export default defineConfig({
       },
     },
   },
-  plugins: [vue(), deno()],
+  plugins: [vue(), deno(),legacy()],
   optimizeDeps: {
     include: ["react/jsx-runtime"],
   },
